@@ -1,0 +1,91 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    #inicio {
+        display: flex;
+
+        img {
+            opacity: 0.5;
+        }
+
+        #name {
+            color: white;
+            font-size: 300%;
+            font-family: 'Lexend', sans-serif;
+            position: absolute;
+            top: 46%;
+            left: 52%;
+            transform: translate(-50%, -50%);
+        }
+
+        #name1 {
+            color: white;
+            font-size: 500%;
+            font-family: 'Lexend', sans-serif;
+            position: absolute;
+            top: 50%;
+            left: 60%;
+            transform: translate(-72%, -30%);
+        }
+        
+        #titulo {
+            color: white;
+            font-size: 100%;
+            font-family: 'Lexend', sans-serif;
+            position: absolute;
+            top: 105%;
+            left: 55%;
+            transform: translate(-72%, -30%);
+        }
+        
+        #año {
+            color: white;
+            font-size: 100%;
+            font-family: 'Lexend', sans-serif;
+            position: absolute;
+            top: 3%;
+            left: 50%;
+            transform: translate(-72%, -30%);
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+
+        .circular--square {
+            border-radius: 50%;
+        }
+
+        #presentacion {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+
+            #imagen {
+                opacity: 1.0;
+                border-right: 1px solid rgb(135, 120, 92);
+                padding-right: 30px;
+            }
+
+            #ficha {
+                padding-left: 30px;
+
+                #intereses {
+                    display: flex;
+                    justify-content: center;
+
+                    .minicontainer {
+                        padding: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

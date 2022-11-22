@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Nunito', sans-serif; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+  main #inicio {
+    display: flex; }
+    main #inicio img {
+      opacity: 0.5; }
+    main #inicio #name {
+      color: white;
+      font-size: 300%;
+      font-family: 'Lexend', sans-serif;
+      position: absolute;
+      top: 46%;
+      left: 52%;
+      transform: translate(-50%, -50%); }
+    main #inicio #name1 {
+      color: white;
+      font-size: 500%;
+      font-family: 'Lexend', sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-72%, -30%); }
+    main #inicio #titulo {
+      color: white;
+      font-size: 100%;
+      font-family: 'Lexend', sans-serif;
+      position: absolute;
+      top: 105%;
+      left: 55%;
+      transform: translate(-72%, -30%); }
+    main #inicio #año {
+      color: white;
+      font-size: 100%;
+      font-family: 'Lexend', sans-serif;
+      position: absolute;
+      top: 3%;
+      left: 50%;
+      transform: translate(-72%, -30%); }
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px; }
+    main section .circular--square {
+      border-radius: 50%; }
+    main section #presentacion {
+      display: flex;
+      align-items: center;
+      padding: 20px; }
+      main section #presentacion #imagen {
+        opacity: 1.0;
+        border-right: 1px solid #87785c;
+        padding-right: 30px; }
+      main section #presentacion #ficha {
+        padding-left: 30px; }
+        main section #presentacion #ficha #intereses {
+          display: flex;
+          justify-content: center; }
+          main section #presentacion #ficha #intereses .minicontainer {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
